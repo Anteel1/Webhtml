@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="./img/Image10000.png" type="img/icon type">
+    <script src="https://kit.fontawesome.com/68a68eb9b3.js" crossorigin="anonymous"></script> 
+    <title>Sản phẩm</title>
+</head>
+<body>
+    <div id="wrap">
+        <!--Loading trang-->
+    <div class="load">
+        <span style="--i:1;">L</span>
+        <span style="--i:2;">O</span>
+        <span style="--i:3;">A</span>
+        <span style="--i:4;">D</span>
+        <span style="--i:5;">I</span>
+        <span style="--i:6;">N</span>
+        <span style="--i:7;">G</span>
+        <span style="--i:8;">.</span>
+        <span style="--i:9;">.</span>
+        <span style="--i:10;">.</span>
+    </div>
+    <iframe class="noneed" width="560" height="315" src="https://www.youtube.com/embed/Yf5d_Zx3AaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="menutren">
+    <!--Menu tren-->
+<ul>
+  <li><a href="home.html"><img height="16px" width="56px" src="./img/wideLogo.png" alt=""></a> </li>
+  <li><a href="home.html">Trang chủ</a>    </li>
+  <li><a href="">Liên hệ</a> </li>
+  <li><a href="">Sản phẩm</a></li>
+  <li><a onclick="show_cart()" >Giỏ hàng<i class="fa-solid fa-cart-shopping"></i></a></li>
+  <div id="show_Cart">
+    <table>
+      <tr class="tr_1">
+        <td>STT</td>
+        <td>Hình ảnh</td>
+        <td>Tên sản phẩm</td>
+        <td>Số lượng</td>
+        <td>Giá</td>
+      </tr>
+    <tbody id="mycart()"></tbody>
+    </table>
+    <br>
+    <button type="button" onclick="buy()" class="total_product">Thanh toán</button>
+  </div>
+<div class="gr1"> <li><a href="sign_up.html">Đăng ký</a></li>/
+  <li><a href="">Đăng nhập <i class="fa-solid fa-user"></i></a></li></div>
+</ul>
+</div>
+<div class="giua-sanpham">
+    <div class="line"><span>Tủ sách hướng nghiệp</span>
+</div>
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      
+      <img src="img/slide_show1.png" style="max-width: 850px;max-height: 450px; width:100%">
+      
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <img src="img/slide_show2.png" style="max-width: 850px; max-height: 450px; width:100%">
+     
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="img/slide_show3.png" style="max-width: 850px; max-height: 450px; width:100%">
+      
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <div class="line"><span>Sản phẩm nổi bật</span>
+</div>
+<div class="product">
+  <div class="sp">
+    <img class="img_product" src="./img/product1.png"  alt="">
+    <h5>Người trong muôn nghề</h5>
+    <h5 class="name_product">Ngành kinh tế có gì</h5>
+    <input type="hidden" value="1">
+   <h4 class="price_product"> <span>259000</span>đ</h4>
+    <Button type="button" onclick="add_cart(this)" class="add_cart">Add to cart</Button>
+  </div>
+  <div class="sp">
+    <img  class="img_product" src="./img/product2.png"  alt="">
+    <h5 >Người trong muôn nghề</h5>
+    <h5 class="name_product">Ngành xã hội & Nhân văn có gì</h5>
+    <input type="hidden" value="1">
+    <h4 class="price_product"><span>149000</span>đ</h4>
+    
+    <Button type="button"  onclick="add_cart(this)" class="add_cart">Add to cart</Button>
+  </div>
+
+  <div class="sp">
+    <img  class="img_product" src="./img/product6.png"  alt="">
+    <h5>Người trong muôn nghề</h5>
+    <h5 class="name_product">Ngành IT có gì</h5>
+    <input type="hidden" value="1">
+    <h4 class="price_product"><span>249000</span>đ</h4>
+    <Button type="button"  onclick="add_cart(this)"  class="add_cart">Add to cart</Button>
+  </div>
+  <div class="sp">
+    <img  class="img_product" src="./img/product4.png"  alt="">
+    <h5>Tuyển tập</h5>
+    <h5 class="name_product">Người trong muôn nghề</h5>
+    <input type="hidden" value="1">
+    <h4 class="price_product"><span>129000</span>đ</h4>
+    <Button type="button"  onclick="add_cart(this)"  class="add_cart">Add to cart</Button>
+  </div>
+  <div class="sp">
+    <img  class="img_product" src="./img/product5.png"  alt="">
+    <h5 >Người trong muôn nghề</h5>
+    <h5 class="name_product">DevUp</h5>
+    <input type="hidden" value="1">
+    <h4 class="price_product"><span>149000</span>đ</h4>
+    <Button type="button"  onclick="add_cart(this)"  class="add_cart">Add to cart</Button>
+  </div>
+  <div class="sp">
+    <img  class="img_product" src="./img/product3.png"  alt="">
+    <h5>Người trong muôn nghề</h5>
+    <h5 class="name_product">Seneca</h5>
+    <input type="hidden" value="1">
+    <h4 class="price_product"><span> 149000</span>đ</h4>
+  <Button type="button"  onclick="add_cart(this)"  class="add_cart">Add to cart</Button>
+  </div>
+</div>
+<div class="footer2">
+  <div class="line"><span><img height="50px" src="./img/96f766a0f0d011e887c529d04005313d.png" alt=""></span></div>
+  <div class="footer">
+      <div class="footerleft"><img  src="./img/wideLogo.png" alt=""></div>
+      <div class="footerright">
+          <h4>© Copyright 2022</h4>
+          <h4>luonglkvn100@gmail.com</h4>
+      </div>
+      
+  </div>
+</div>
+</div>
+
+</body>
+<script src="abcjs.js"></script>
+<script src="slide_show.js"></script>
+<script src="add_cart.js"></script>
+</html>
