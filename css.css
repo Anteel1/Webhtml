@@ -257,18 +257,27 @@ hr{
     padding: 0 20% 0 20%;
 }
 .footerleft{
+   
     width: 50%;
     display: block;
     position: relative;
     float: left;
 }
+.footerleft h5 h4{
+     color: #27282c;
+}
 .footerright{
-    padding-left: 28%;
-    color: #27282c93;
+    
+    color: #2172c9;
     display: block;
     width: 50%;
     float: left;
-   position: relative;
+   
+}
+.item_footerright>i{
+    padding: 5px 0 5px 5px;
+    display: flex;
+    position: relative;
 }
 .footer img{
     width: 48px;
